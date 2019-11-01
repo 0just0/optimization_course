@@ -1,0 +1,41 @@
+Model: planes 
+ - number of variables: 16 
+   - binary=0, integer=0, continuous=16 
+ - number of constraints: 7 
+   - linear=7 
+ - parameters: defaults 
+WARNING: Number of workers has been reduced to 10 to comply with platform limitations. 
+CPXPARAM_Read_DataCheck                          1 
+CPXPARAM_Threads                                 10 
+Tried aggregator 1 time. 
+No LP presolve or aggregator reductions. 
+Presolve time = 0.00 sec. (0.01 ticks) 
+ 
+Iteration log . . . 
+Iteration:     1   Dual objective     =         36000.000000 
+dual values for model constraints: 
+optim_planes_0_0+optim_planes_0_1+optim_planes_0_2+optim_planes_0_3 <= 5 : -3000.0 
+optim_planes_1_0+optim_planes_1_1+optim_planes_1_2+optim_planes_1_3 <= 8 : -2200.0 
+optim_planes_2_0+optim_planes_2_1+optim_planes_2_2+optim_planes_2_3 <= 10 : -1000.0 
+150optim_planes_0_0+120optim_planes_1_0+100optim_planes_2_0+empty_seats_1 == 1000 : 40.0 
+100optim_planes_0_1+90optim_planes_1_1+100optim_planes_2_1+empty_seats_2 == 2000 : 50.0 
+100optim_planes_0_2+90optim_planes_1_2+80optim_planes_2_2+empty_seats_3 == 900 : 45.0 
+50optim_planes_0_3+60optim_planes_1_3+40optim_planes_2_3+empty_seats_4 == 1200 : 70.0 
+slack values: [0, 0, 0, 0, 0, 0, 0] 
+deficit values for constraints: 
+1) optim_planes_0_0+optim_planes_0_1+optim_planes_0_2+optim_planes_0_3 <= 5 
+2) optim_planes_1_0+optim_planes_1_1+optim_planes_1_2+optim_planes_1_3 <= 8 
+3) optim_planes_2_0+optim_planes_2_1+optim_planes_2_2+optim_planes_2_3 <= 10 
+4) 150optim_planes_0_0+120optim_planes_1_0+100optim_planes_2_0+empty_seats_1 == 1000 
+5) 100optim_planes_0_1+90optim_planes_1_1+100optim_planes_2_1+empty_seats_2 == 2000 
+6) 100optim_planes_0_2+90optim_planes_1_2+80optim_planes_2_2+empty_seats_3 == 900 
+7) 50optim_planes_0_3+60optim_planes_1_3+40optim_planes_2_3+empty_seats_4 == 1200 
+solution for: planes 
+objective: 221900.000 
+optim_planes_0_0 = 5.000 
+optim_planes_1_3 = 8.000 
+optim_planes_2_1 = 10.000 
+empty_seats_1 = 250.000 
+empty_seats_2 = 1000.000 
+empty_seats_3 = 900.000 
+empty_seats_4 = 720.000 

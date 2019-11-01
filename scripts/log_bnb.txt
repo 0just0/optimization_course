@@ -1,0 +1,14 @@
+solution for: planes 
+objective: 208566
+optim_planes_0_0 = 9
+optim_planes_0_1 = 1
+optim_planes_0_2 = 10
+optim_planes_1_3 = 15
+optim_planes_1_1 = 9
+optim_planes_2_0 = 8
+optim_planes_2_1 = 2
+optim_planes_2_2 = 13
+optim_planes_2_3 = 1
+
+Average time over 100 runs:
+0.00
