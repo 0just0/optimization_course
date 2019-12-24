@@ -1,8 +1,11 @@
+"""
+Optimization Lab.
+"""
+
 from collections import namedtuple
 
 from docplex.mp.model import Model
 from docplex.util.environment import get_environment
-import numpy as np
 
 """
 3 types of planes,
