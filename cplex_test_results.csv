@@ -1,0 +1,12 @@
+file|nodes|edges|clique_size|time
+scripts/graphs/simple/johnson16-2-4.clq|120|5460|8|543 s
+scripts/graphs/simple/keller4.clq|171|9435|11|349 s
+scripts/graphs/simple/brock200_2.clq|200|9876|12|1380 s
+scripts/graphs/simple/brock200_3.clq|200|12048|15|638 s
+scripts/graphs/simple/brock200_4.clq|200|13089|17|1130 s
+scripts/graphs/simple/brock200_1.clq|200|14834|21|1371 s
+scripts/graphs/simple/gen200_p0.9_44.clq|200|17910|36|530 s
+scripts/graphs/simple/gen200_p0.9_55.clq|200|17910|38|533 s
+scripts/graphs/simple/hamming8-4.clq|256|20864|16|1386 s
+scripts/graphs/simple/MANN_a27.clq|378|70551|126|1.5 s
+scripts/graphs/simple/p_hat1000-1.clq|1000|122253|10|1982 s
