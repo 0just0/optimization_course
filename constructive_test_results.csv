@@ -1,6 +1,6 @@
 filename,nodes,edges,clique length,time
 scripts/graphs/simple/johnson16-2-4.clq,120,5460,8,245 s
-scripts/graphs/simple/keller4.clq|171,9435,11,180 s
+scripts/graphs/simple/keller4.clq,171,9435,11,180 s
 scripts/graphs/simple/brock200_2.clq,200,9876,12,363 s
 scripts/graphs/simple/brock200_3.clq,200,12048,15,224 s
 scripts/graphs/simple/brock200_4.clq,200,13089,17,282 s
