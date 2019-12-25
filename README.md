@@ -6,3 +6,5 @@ Contains:
 
 1. First lab(plane schedule)
 2. BnB lab (BnB implementation is kinda rusty, the best I could imagine for now, though. meh)
+
+Reference for BnB - http://ieomsociety.org/ieom2018/papers/648.pdf, http://www.m-hikari.com/ams/ams-2014/ams-1-4-2014/mamatAMS1-4-2014-3.pdf
